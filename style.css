@@ -1,0 +1,20 @@
+.centerdiv{ 
+    height: 80vh;
+    position: relative;
+}
+.center{
+    display:inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input {
+    background-color: wheat; 
+}
+input.inputclass{
+    background-color: lightblue;
+}

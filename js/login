@@ -1,0 +1,14 @@
+
+$("#formlogin").on("submit", function( event ) {
+  var form = $("#formlogin").serialize();
+
+  $.ajax({
+      url: "http://localhost:8585/rockers-api/user/login",
+      data: form,
+      success: function( result ){
+         console.log("teste");
+        },
+        dataType: 'json'
+    });
+});
+
